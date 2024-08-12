@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "ES2018",
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "sourceRoot": "./src",
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "emitDeclarationOnly": true,
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "examples"
+    ]
+}
